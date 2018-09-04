@@ -10,12 +10,6 @@ function textNodeFilter() {
     return this.nodeType == 3
 }
 
-/*
-$('p', 'li').html(function() {
-    return $(this).html().replace(match, '<span class="temperature">$1</span>')
-})
-*/
-
 $("body").find("*").contents().filter(textNodeFilter).each(function(index) {
     var textNode = $(this)
     var text = textNode.text()

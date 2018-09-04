@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "tc",
+    "name": "Temperature converter",
     "version": "0.1",
 
-    "description": "converts temperatures to sensible units",
+    "description": "Converts temperatures to sensible units",
 
     "content_scripts": [
         {

@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "tc",
+    "version": "0.1",
+
+    "description": "converts temperatures to sensible units",
+
+    "content_scripts": [
+        {
+            "matches": [ "*://*/*" ],
+            "js": [ "jquery-3.3.1.min.js", "tc.js" ] 
+        }
+    ]
+}
